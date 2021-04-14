@@ -1,9 +1,9 @@
 // jshint es6
 
-module.exports.getDate = function() {
-  let today = new Date();
+exports.getDate = function() {
+  const today = new Date();
 
-  let options = {
+  const options = {
     weekday: "long",
     day: "numeric",
     month: "long"
@@ -13,10 +13,10 @@ module.exports.getDate = function() {
 
 };
 
-module.exports.getDay = function() {
-  let today = new Date();
+exports.getDay = function() {
+  const today = new Date();
 
-  let options = {
+  const options = {
     weekday: "long",
   };
 
