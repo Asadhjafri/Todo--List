@@ -3,4 +3,4 @@ Simple to do list where you can add and check off what you do. Displayed with cu
 
 # What I Learned
 EJS and Templating
-Refactor code by exportinf modules
+Refactor code by exporting and importing modules
